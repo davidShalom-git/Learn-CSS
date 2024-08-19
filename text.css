@@ -1,0 +1,19 @@
+h1{
+    letter-spacing: 3px;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+b{
+    vertical-align: super;
+}
+
+p
+{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+}

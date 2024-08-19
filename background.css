@@ -1,0 +1,96 @@
+body{ 
+    background-color: teal;
+    background-image: url(Sky.jpg); 
+    /* background-image: url(goku.png);  */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom right; 
+    height: 800px;
+    width: 800px; 
+    
+ } 
+
+div{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 25px;
+    text-align: justify;
+    background-color: teal;
+    padding: 50px;
+    background-image: url(Jiren.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-size: 100%;
+    background-size: cover;
+    
+}
+
+#mm{
+    background-image: url(Beerus.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+}
+
+#hmm{
+    width: 1200px;
+    height: 650px;
+    padding: 25px;
+    border: 20px dashed black;
+    background-image: url(Jiren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-origin: content-box;
+    background-origin: border-box;
+}
+
+#yes{
+    width: 1200px;
+    height: 650px;
+    background-image: url(Jiren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    font-family: Impact;
+    text-align: center;
+    color: transparent;   
+    background-clip: text;
+    -webkit-background-clip: text;   /* for google chrome */
+
+
+}
+
+#ok{
+    height: 600px;
+    width: 800px;
+    background-color: red;
+    background: linear-gradient(red,yellow,orange);
+
+    background: linear-gradient(to left, green,blue);  
+    background: linear-gradient(to right, blue,orange);
+    background: linear-gradient(to top, blue,red); 
+    background: linear-gradient(to bottom,green,yellow); 
+
+    background: linear-gradient(to top left, white,black);
+    background: linear-gradient(to top right, green, black);
+    background: linear-gradient(to bottom right,blue,yellow);
+    background: linear-gradient(to bottom left,green,violet);
+
+    background-image: conic-gradient(from 90deg,red,yellow,green,blue);
+    border-radius: 50%;
+
+    width: 800px;
+    border: 1px solid #333;
+    padding: 20px;   
+}
+
+img{
+        opacity: 0.3;
+
+}
+

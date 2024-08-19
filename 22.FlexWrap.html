@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexWrap</title>
+
+    <style>
+        .container{
+            width: 300px;
+            border: 5px solid black;
+            padding: 5px;
+            display: flex;
+
+            /* If the content overflow in box we can use this property */
+
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            /* flex-wrap: wrap-reverse; */
+        }
+
+        .box{
+
+            color: white;
+            padding: 30px;
+            border: 5px solid;
+            margin: 10px;
+            font-size: 25px;
+            font-weight: bolder;
+            background-color: orangered;
+
+        }
+
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    
+</body>
+</html>

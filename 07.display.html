@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+
+        h1,p{
+            background: red;
+        }
+        b{
+            background: blue;
+            /*  display: block;  convert inline to block level */
+           /*  display: none;   disappear */
+           /* display: inline-block; */
+            height: 25px;
+            Width: 350px;
+        }
+
+        ul li{
+            display: inline; /* remove dots  */
+
+        }
+        table{
+            border-collapse: collapse;  /* to remove bold lines  */
+            border: orange;
+
+        }
+        table tr:nth-of-type(even)
+        {
+            background-color: green;  /* To hightlight particular rows or columns  */
+        }
+        .tab{
+            color: black;
+            background-color: orange;
+        
+        }
+    
+
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Display Property In CSS</h1>  
+
+    <!--h1 and p tags are block level element-->
+
+    <ul>
+        <li>Java Program</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>AI</li>
+        <li>MySQL</li>
+    </ul>
+
+
+    <p>
+        Lorem ipsum dolor <b>sit amet consectetur</b> adipisicing elit. Et nemo perspiciatis commodi eos omnis dignissimos porro cumque nihil neque aspernatur numquam quam modi, similique ratione dolor voluptate itaque doloribus voluptatibus impedit excepturi totam labore ipsum? Tempore numquam dolorem fugit quidem ea? Tenetur illum quia cum assumenda voluptate veniam laborum laudantium alias quae earum. Repellat consectetur voluptates quasi provident sapiente repudiandae doloremque mollitia vero, vel reprehenderit illo alias ratione recusandae, in delectus eos eum debitis quis possimus rerum pariatur suscipit ipsam repellendus praesentium. Qui reprehenderit minima deleniti sapiente amet, temporibus, quisquam atque, minus ducimus totam error molestiae enim voluptates labore rem?
+    </p>
+
+
+    <table border="1"
+    cellspacing="10px"
+    cellpadding="10px">
+
+    <colgroup>
+    <col style="width: 100px;">
+    <col  style="width: 50px;">
+    <col></colgroup>
+
+
+
+        <th class="tab">
+            NAME
+        </th>
+
+        <th class="tab">
+            CHARACTERS
+        </th>
+
+        <th class="tab">
+            WARRIORS
+        </th>
+
+        <tr>
+            <td>Goku</td>
+            <td style="text-align: center;">Vegeta</td>
+            <td>broly</td>
+        </tr>
+
+        <tr>
+            <td style="color: blue; background-color: green;">Whis</td>
+            <td style="text-align: center;">Beerus</td>
+            <td rowspan="2">Champa</td>
+        </tr>
+
+        <tr>
+            <td>Jiren</td>
+            <td style="text-align: center;">Dyspo</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total</td>
+        </tr>
+
+    </table>
+
+
+
+
+</body>
+</html>

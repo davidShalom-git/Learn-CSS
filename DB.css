@@ -1,0 +1,46 @@
+
+
+#head{
+    color: red;
+    font-size: 60px;
+    font-style: normal;
+}
+
+#head1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Impact;
+}
+
+#go{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: justify
+
+}
+
+#tp{
+    font-size: 25px;
+    font-weight: bold;
+    color:crimson;
+
+}
+
+#yohh{
+    font-size: 55px;
+    color: white;
+    font-family: Arial;
+}
+
+#do
+{
+    text-align: justify;
+    font-weight: bold;
+    color: orange;
+    font-size: 20px;
+}
+
+p + h6::first-line{
+    color:green;
+}

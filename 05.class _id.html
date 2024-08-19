@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes and Id's</title>
+
+    <style>
+
+        h1,h3[id]{
+            color: white;
+            background-color: red;
+        }
+
+        /*  
+            #id  (Single Elements)
+            .class (Mulitple elements)        
+        */
+
+        #title{
+            color: rgb(163, 112, 18);
+            font-size: 25px;
+        }
+
+        .boss{
+            height: 200px;
+            width: 350px;
+            background: teal;
+            margin-bottom: 10px;
+            display: block;  /* span */
+        }
+
+        /* h1,p,h3,.box{  
+            color: blueviolet;
+        } */
+
+        .box > p{
+            color: indigo;  /* first preference among elements */
+        }
+
+        div[class]{
+            background: black;
+        }
+        div[class="inner"]
+        {
+            background-color: blue;
+        }
+        div[id]
+        {
+            background-color: orange;
+        }
+
+        p[class]{
+            background-color: brown;
+        }
+        a[title="link1"]{
+            color: gray;
+        }
+
+        a[href="DB.html"]{
+            color: blue;
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <h1>
+        Selectors Properties in CSS
+    </h1>
+
+    <h3 id="yes" >Jiren The Great</h3>
+
+    <div class="boss"></div>
+    <div class="boss"></div> 
+    <span class="boss"></span> 
+
+    <h1>More Mulitple Selectors</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia adipisci recusandae magni non laudantium amet delectus deleniti dolores rerum incidunt!
+    </p>
+
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur natus, voluptatibus illo optio sapiente ea tempore atque laudantium sit assumenda consectetur, repudiandae aperiam corrupti porro ducimus minus dignissimos officiis!
+        </p>
+        <div class="inner">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci at quo dolor exercitationem dolore, tempore quos? Odio, assumenda fuga, dicta, fugit sunt officiis in perferendis ipsum iure inventore quibusdam dolorum libero recusandae provident expedita aliquid ullam. Magnam reiciendis, alias repudiandae nobis expedita odio cupiditate nemo libero deserunt veritatis dolorum ducimus eveniet est dolorem suscipit ipsam debitis assumenda quaerat quam! Commodi dolorem odit in necessitatibus consequuntur cum assumenda, architecto recusandae excepturi possimus ea impedit repellendus temporibus veniam omnis sed! Repellendus temporibus aliquam culpa expedita provident, tempora earum qui ad dolorum quaerat, debitis placeat, reprehenderit non dignissimos saepe ratione! Debitis, aliquam?</p>
+        </div>
+    </div>
+
+    <div>
+            <p>This is div tag broo</p>
+    </div>
+
+    <div id="id">
+        <p>This is Jiren</p>
+    </div>
+
+    <p class="oh">
+        hey
+    </p>
+
+    <a href="DB.html" title="link1">Link-1</a>
+    <a href="#" title="link2">Link-2</a>
+    <a href="#" title="link3">Link-3</a>
+
+</body>
+</html>

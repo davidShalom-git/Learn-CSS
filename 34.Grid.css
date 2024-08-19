@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    height: 600px;
+    /* display: inline-grid; */
+
+    /* columns  */
+
+    /* grid-template-columns: 100px 200px 300px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: repeat(3,200px);
+    grid-template-columns: repeat(3,200px) 300px;
+    grid-template-columns: 1fr 2fr 2fr; */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* rows */
+    grid-template-rows: 100px;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(3, 1fr);
+
+
+    /* single line for both rows and columns */
+
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+
+    /* Rows and Columns  */
+
+}

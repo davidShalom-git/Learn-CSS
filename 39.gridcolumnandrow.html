@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Column</title>
+
+    <style>
+
+       *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container{
+            border: 5px solid black;
+            margin: 20px;
+            display: grid;
+            height: 800px;
+            grid-template: repeat(3, 200px) / repeat(3,200px);
+        }
+
+        .grid-item{
+            color: white;
+            font-size: 18px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .box-1{background-color: #1abc9c;}
+        .box-2{background-color: #3498db;}
+        .box-3{background-color: #2ecc71;}
+        .box-4{background-color: #9b59b6;}
+        .box-5{background-color: #34495e;}
+        .box-6{background-color: #2980b9;}
+        .box-7{background-color: #e74c3c;}
+        .box-8{background-color: #d35400}
+        .box-9{background-color: #2c3e50;}
+
+        .box-1{
+            /* grid-column-start: 1;
+            grid-column-end: 3;
+            grid-column-end: span 2; */
+
+ 
+            grid-column: 1 / span 2; 
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+
+            grid-row: 1 / span 2;
+
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+        }
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid-item box-1">Box-1</div>
+        <div class="grid-item box-2">Box-2</div>
+        <div class="grid-item box-3">Box-3</div>
+        <div class="grid-item box-4">Box-4</div>
+        <div class="grid-item box-5">Box-5</div>
+        <div class="grid-item box-6">Box-6</div>
+        <div class="grid-item box-7">Box-7</div>
+        <div class="grid-item box-8">Box-8</div>
+        <div class="grid-item box-9">Box-9</div>
+    </div>
+
+
+    
+</body>
+</html>

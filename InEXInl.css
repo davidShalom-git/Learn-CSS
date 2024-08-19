@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+    font-family: 'Pacifico', cursive;
+}
+
+i{
+    color:green;
+    background-color:black;
+}
+
+p{
+    font-style: normal;
+    font-family: Arial;
+    font-variant: small-caps;
+    font-size: 25px;
+
+    
+}

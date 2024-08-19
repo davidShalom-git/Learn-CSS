@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Template_Area</title>
+
+    <style>
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-areas:
+
+            'header header header'
+            'nav content sidebar'
+            'footer footer footer';
+
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-rows: 100px 1fr 50px;
+        }
+
+        header,main,nav,aside,footer{
+            background-color: orangered;
+            color: white;
+            padding: 20px;
+            border: 1px solid white;
+
+
+        }
+
+        header{
+            grid-area: header;
+        }
+        nav{
+            grid-area: nav;
+        }
+        main{
+            grid-area: content;
+        }
+        aside{
+            grid-area: sidebar;
+        }
+        footer{
+            grid-area: footer;
+        }
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+<header>Header</header>
+<main>Content</main>
+<nav>Navigation</nav>
+<aside>Side Bar</aside>
+<footer>Footer</footer>
+    
+</body>
+</html>

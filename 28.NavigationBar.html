@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation_Bar</title>
+
+    <style>
+
+        *{
+            font-family:'Gill Sans';
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px 10%;
+            background: #414a4f;
+        }
+
+        .Logo{
+            cursor: pointer;
+            color: white;
+            font-weight: 400;
+            font-size: 30px;
+            margin-right: auto;
+        }
+
+        .nav-link{
+            list-style: none;
+            display: flex;
+
+        }
+
+        .nav-link li{
+                padding: 0 20px
+
+        }
+        .nav-link li a{
+            color: white;
+            text-decoration: none;
+        }
+        .nav-link li a:hover{
+            color: orangered;
+        }
+
+        button{
+            padding: 9px 25px;
+            border: none;
+            background: green;
+            color: white;
+            border-radius: 75px;
+            transform: 0.3s;
+            cursor: pointer;
+
+        }
+        button:hover{
+            background: rgba(8, 203, 8, 0.8);
+
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2 class="Logo">Jiren</h2>
+        
+        <nav>
+            <ul class="nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </nav>   
+        <button>Contact Us</button>  
+    </header>
+    
+</body>
+</html>

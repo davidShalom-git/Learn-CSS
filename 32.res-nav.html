@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Res-Nav-Bar</title>
+    
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+        *{
+            font-family: 'Varela Round';
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2c3e50;
+            color: white
+        }
+
+        .logo{
+            font-size: 20px;
+            font-weight: 500;
+            margin: 8px;
+        }
+
+        .navbar-links ul{
+            display: flex;
+
+        }
+
+        .navbar-links ul li{
+            list-style: none;
+        }
+
+        .navbar-links ul li a{
+            color: white;
+            text-decoration: none;
+            padding: 16px;
+            display: block;
+        }
+        .navbar-links ul li:hover{
+            background-color: #34495e;
+        }
+        .btn{
+
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            height: 22px;
+            width: 30px;
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        .bar{
+            height: 3px;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        @media (max-width: 600px){
+            .btn{
+                display: flex;
+            }
+            .navbar-links{
+                display: none;
+                width: 100%;
+            }
+
+            .navbar{
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar-links ul{
+                flex-direction: column;
+                width: 100%;
+            }
+            .navbar-links.acitve{
+                display: flex;
+            }
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Jiren</div>
+        <a href="#" class="btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Download</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="33.Script.js"></script>
+
+</body>
+</html>

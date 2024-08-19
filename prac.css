@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+img{
+    margin-top: 50px;
+    margin-bottom:10px;
+}
+
+#bol{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Impact;
+    margin-bottom: 10px;
+}
+
+#nor{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: normal;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+button{
+    height: 30px;
+    background-color: green;
+    border-radius: 20px dotted black;
+    margin-bottom: 10px;
+}
+a:hover{
+    color: red;
+    border-radius: 200px;
+}
+
+a:active{
+    color: black;
+
+}
+
+ul{
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+body{
+    border: 3.5px solid black;
+    width: 850px;
+    margin: 50px auto;
+    padding: 0 auto;
+}
+.div{
+    background-color: black;
+    text-align: center;
+
+}
+
+#button{
+    color:white;
+    background-color: black;
+    border: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#button:hover{
+    color: blue;
+}
+
